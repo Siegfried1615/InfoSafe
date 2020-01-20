@@ -1,0 +1,125 @@
+参考：
+https://www.cnblogs.com/ECJTUACM-873284962/p/7872114.html
+
+1. 密文原文
+AHNFCROACOAHNISEFLCIASFVCNWOSEAHNWSRLDWCAHCEIRNTONDATRCFFOSEOANNLTEDTLUMCEUMFRSMAHNNUITETDTTEDJTPTEAHNUOWCNLDOCAOATRCFFBTASETGTCEOACAOARTDCACSETLTLLCNOTAAHNOTMNACMNCACODNMTEDCEGAHTATFRCITEISUEARCNOOUIHTORWTEDTTEDUGTEDTRNMSVNCMPSRAATRCFFOSEONISEDHTEDILSAHNOFRSMAHNUOAHTAVCNWSEAHNWSRLDCOKESWETOTMNRCITFCROATEDCAMNTEOAHTATEYSENONNETOHTVCEGMSVNDTMNRCITOIHNNONBNCATETLLYSRESACOPUECOHNDBYISEARTOAIHCETONNOCAORNLTACSEOWCAHAHNWSRLDTOBTONDSEMUAUTLRNOPNIAFTCRENOOJUOACINTEDWCEWCEISSPNRTACSETEDTCMOASOTFNGUTRDWSRLDPNTINTEDPRSMSANISMMSEDNVNLSPMNEACACOWCLLCEGASWSRKWCAHAHNRNOASFAHNWSRLDASMTKNAHNCEANRETACSETLGSVNRETEINOYOANMFTCRNRTEDMSRNRNTOSETBLNTEDBUCLDTENWAYPNSFCEANRETACSETLRNLTACSEOTEDTISMMUECAYWCAHTOHTRNDFUAURNFSRMTEKCED
+thefirsti       stheconflictofviewsontheworldwithincreasedtariffsonsteelandaluminumfromtheeucanadaandjapantheuswieldsitstariffbatonagainstitstraditionalalliesatthesametimeitisdemandingthatafricancountriessuchasrwandaandugandaremoveimporttariffsonsecondhandclothesfromtheusthatviewontheworldisknownasamericafirstanditmeansthatanyoneseenashavingmovedamericascheesebeitanallyornotispunishedbycontrastchinaseesitsrelationswiththeworldasbasedonmutualrespectfairnessjusticeandwinwincooperationandaimstosafeguardworldpeaceandpromotecommondevelopmentitiswillingtoworkwiththerestoftheworldtomaketheinternationalgovernancesystemfairerandmorereasonableandbuildanewtypeofinternationalrelationsandacommunitywithasharedfutureformankind
+2.
+常用字母频率
+etaoni                        shrdlumcfwgypbvkxjqz
+密文频次分布表
+T   N   A   E   C   O        S   R   D
+78  73  68  65  59  51       50  42  33
+
+三元二元一元中高配词汇
+T E D   A N H
+应该是the， and，ing中的两个
+
+常用二元字母
+th    he    in    er    an    re    ed    on    es    st    en    at    to    nt    ha    nd    ou    ea    ng    as    or    ti    is    et    it    ar    te     se    hi    of
+密文二元频率
+TE 		 23     an
+AH 		 20     th
+SE 		 18     *n      on
+ED 		 17     nd
+HN 		 15     he
+OA 		 14     st      st
+ET 		 14     na
+AC 		 14     t*      ti
+CA 		 13     it      st      it
+CE 		 12     in      in
+TO 		 11     as
+RN 		 11
+NO 		 11
+SR 		 10
+TA 		 10
+
+假设 TED = the 失败
+明文 - 密文
+  t  -  A           s  -  O
+  h  -  H
+  e  -  N
+  a  -  T
+  n  -  E
+  d  -  D
+  s  -  O
+  i  -  C
+  o  -  S
+
+
+
+常用三元字母
+the   ing    and    her    ere    ent    tha    nth    was    eth    for    dth    hat    she    ion    his    sth    ers    ver
+密文三元频率
+TED 		 14     and
+AHN 		 13     the
+WSR 		 6      *o*
+ACS 		 6      tio
+CSE 		 6      ion
+SET 		 6      ona
+NWS 		 5      e*0
+SRL 		 5
+RLD 		 5
+TAC 		 5
+EDT 		 5
+
+极高频 E
+次高频 T A O I N S H R
+中等频 D L
+低频   C U M W F G Y P B
+最低频 V K J X Q Z
+
+
+
+
+3. 尝试
+TED - the， AHN - and失败
+尝试
+TED - and,  AHN - the
+=====
+明文 - 密文
+  t  -  A
+  h  -  H
+  e  -  N
+  a  -  T
+  n  -  E
+  d  -  D
+  s  -  O
+  i  -  C
+  o  -  S
+  c  -  I
+  f  -  F
+  r  -  R
+  l  -  L
+  v  -  V
+
+明文：the*i*stisthe*on**i*to**iewsonthewo**dwithin**easedta*i**sonstee*anda***in****o*thee**anadaand*a*anthe*swie*dsitsta*i***atona*ainstitst*aditiona*a**iesatthesa*eti*eitisde*andin*thata**i*an*o*nt*iess**has*wandaand**anda*e*o*ei**o*tta*i**sonse*ondhand**othes**o*the*sthat*iewonthewo**dis*nownasa*e*i*a*i*standit*eansthatanYoneseenasha*in**o*eda*e*i*as*heese*eitana**Yo*notis**nished*Y*ont*ast*hinaseesits*e*ationswiththewo**das*asedon**t*a**es*e*t*ai*ness**sti*eandwinwin*oo*e*ationandai*stosa*e**a*dwo**d*ea*eand**o*ote*o**onde*e*o**entitiswi**in*towo**withthe*esto*thewo**dto*a*etheinte*nationa**o*e*nan*esYste**ai*e*and*o*e*easona**eand**i*danewtY*eo*inte*nationa**e*ationsanda*o***nitYwithasha*ed**t**e*o**an*ind
+密文：AHNFCROACOAHNISEFLCIASFVCNWOSEAHNWSRLDWCAHCEIRNTONDATRCFFOSEOANNLTEDTLUMCEUMFRSMAHNNUITETDTTEDJTPTEAHNUOWCNLDOCAOATRCFFBTASETGTCEOACAOARTDCACSETLTLLCNOTAAHNOTMNACMNCACODNMTEDCEGAHTATFRCITEISUEARCNOOUIHTORWTEDTTEDUGTEDTRNMSVNCMPSRAATRCFFOSEONISEDHTEDILSAHNOFRSMAHNUOAHTAVCNWSEAHNWSRLDCOKESWETOTMNRCITFCROATEDCAMNTEOAHTATEYSENONNETOHTVCEGMSVNDTMNRCITOIHNNONBNCATETLLYSRESACOPUECOHNDBYISEARTOAIHCETONNOCAORNLTACSEOWCAHAHNWSRLDTOBTONDSEMUAUTLRNOPNIAFTCRENOOJUOACINTEDWCEWCEISSPNRTACSETEDTCMOASOTFNGUTRDWSRLDPNTINTEDPRSMSANISMMSEDNVNLSPMNEACACOWCLLCEGASWSRKWCAHAHNRNOASFAHNWSRLDASMTKNAHNCEANRETACSETLGSVNRETEINOYOANMFTCRNRTEDMSRNRNTOSETBLNTEDBUCLDTENWAYPNSFCEANRETACSETLRNLTACSEOTEDTISMMUECAYWCAHTOHTRNDFUAURNFSRMTEKCED
+
+猜测 F - f, R-r
+the first is the *onf*i*t of*iewsonthewor*dwithin*reasedtariffsonstee*anda***in**fro*thee**anadaand*a*anthe*swie*dsitstariff*atona*ainstitstraditiona*a**iesatthesa*eti*eitisde*andin*thatafri*an*o*ntriess**hasrwandaand**andare*o*ei**orttariffsonse*ondhand**othesfro*the*sthat*iewonthewor*dis*nownasa*eri*afirstandit*eansthatanYoneseenasha*in**o*eda*eri*as*heese*eitana**Yornotis**nished*Y*ontrast*hinaseesitsre*ationswiththewor*das*asedon**t*a*res*e*tfairness**sti*eandwinwin*oo*erationandai*stosafe**ardwor*d*ea*eand*ro*ote*o**onde*e*o**entitiswi**in*towor*withtherestofthewor*dto*a*etheinternationa**o*ernan*esYste*fairerand*orereasona**eand**i*danewtY*eofinternationa*re*ationsanda*o***nitYwithasharedf*t*refor*an*ind
+AHN FCROA CO AHN ISEFLCIA SFVCNWOSEAHNWSRLDWCAHCEIRNTONDATRCFFOSEOANNLTEDTLUMCEUMFRSMAHNNUITETDTTEDJTPTEAHNUOWCNLDOCAOATRCFFBTASETGTCEOACAOARTDCACSETLTLLCNOTAAHNOTMNACMNCACODNMTEDCEGAHTATFRCITEISUEARCNOOUIHTORWTEDTTEDUGTEDTRNMSVNCMPSRAATRCFFOSEONISEDHTEDILSAHNOFRSMAHNUOAHTAVCNWSEAHNWSRLDCOKESWETOTMNRCITFCROATEDCAMNTEOAHTATEYSENONNETOHTVCEGMSVNDTMNRCITOIHNNONBNCATETLLYSRESACOPUECOHNDBYISEARTOAIHCETONNOCAORNLTACSEOWCAHAHNWSRLDTOBTONDSEMUAUTLRNOPNIAFTCRENOOJUOACINTEDWCEWCEISSPNRTACSETEDTCMOASOTFNGUTRDWSRLDPNTINTEDPRSMSANISMMSEDNVNLSPMNEACACOWCLLCEGASWSRKWCAHAHNRNOASFAHNWSRLDASMTKNAHNCEANRETACSETLGSVNRETEINOYOANMFTCRNRTEDMSRNRNTOSETBLNTEDBUCLDTENWAYPNSFCEANRETACSETLRNLTACSEOTEDTISMMUECAYWCAHTOHTRNDFUAURNFSRMTEKCED
+
+
+使用词典查询包含 *onf*i*t 中onf的单词
+conflict - *onf*i*t
+
+c - I, l - L
+the first is the conflict of *iews on the world with increased tariffs on steel and al** in**fro*thee* canada and *a*an the *swieldsitstariff*atona*ainstitstraditionalalliesatthesa*eti*eitisde*andin*thatafricanco*ntriess*chasrwandaand**andare*o*ei**orttariffsonsecondhandclothesfro*the*sthat*iewontheworldis*nownasa*ericafirstandit*eansthatanYoneseenasha*in**o*eda*ericascheese*eitanallYornotis**nished*Ycontrastchinaseesitsrelationswiththeworldas*asedon**t*alres*ectfairness**sticeandwinwincoo*erationandai*stosafe**ardworld*eaceand*ro*oteco**onde*elo**entitiswillin*towor*withtherestoftheworldto*a*etheinternational*o*ernancesYste*fairerand*orereasona*leand**ildanewtY*eofinternationalrelationsandaco***nitYwithasharedf*t*refor*an*ind
+v - V
+tariffs 关税
+the first is the conflict of views on the world with increased tariffs on steel and al**in**fro*thee* canada and *a*an the *swieldsitstariff*atona*ainstitstraditionalalliesatthesa*eti*eitisde*andin*thatafricanco*ntriess*chasrwandaand**andare*ovei**orttariffsonsecondhandclothesfro*the*sthatviewontheworldis*nownasa*ericafirstandit*eansthatanYoneseenashavin**oveda*ericascheese*eitanallYornotis**nished*Ycontrastchinaseesitsrelationswiththeworldas*asedon**t*alres*ectfairness**sticeandwinwincoo*erationandai*stosafe**ardworld*eaceand*ro*oteco**ondevelo**entitiswillin*towor*withtherestoftheworldto*a*etheinternational*overnancesYste*fairerand*orereasona*leand**ildanewtY*eofinternationalrelationsandaco***nitYwithasharedf*t*refor*an*ind
+AHN FCROA CO AHN ISEFLCIA SF VCNWO SE AHN WSRLD WCAH CEIRNTOND ATRCFFO SE OANNL TED TLUMCEUMFRSMAHNNU ITETDT TED JTPTE AHNUOWCNLDOCAOATRCFFBTASETGTCEOACAOARTDCACSETLTLLCNOTAAHNOTMNACMNCACODNMTEDCEGAHTATFRCITEISUEARCNOOUIHTORWTEDTTEDUGTEDTRNMSVNCMPSRAATRCFFOSEONISEDHTEDILSAHNOFRSMAHNUOAHTAVCNWSEAHNWSRLDCOKESWETOTMNRCITFCROATEDCAMNTEOAHTATEYSENONNETOHTVCEGMSVNDTMNRCITOIHNNONBNCATETLLYSRESACOPUECOHNDBYISEARTOAIHCETONNOCAORNLTACSEOWCAHAHNWSRLDTOBTONDSEMUAUTLRNOPNIAFTCRENOOJUOACINTEDWCEWCEISSPNRTACSETEDTCMOASOTFNGUTRDWSRLDPNTINTEDPRSMSANISMMSEDNVNLSPMNEACACOWCLLCEGASWSRKWCAHAHNRNOASFAHNWSRLDASMTKNAHNCEANRETACSETLGSVNRETEINOYOANMFTCRNRTEDMSRNRNTOSETBLNTEDBUCLDTENWAYPNSFCEANRETACSETLRNLTACSEOTEDTISMMUECAYWCAHTOHTRNDFUAURNFSRMTEKCED
+
+因为剩下的词汇均为低频字母，并且上面不少低频词汇未作改变
+猜测  j-J, m-M, p-P, k-K, z-Z, u-U, b-B, g-G
+aluminum 铝 wields 挥舞
+
+the first is the conflict of views on the world with increased tariffs on steel and aluminum from the eu canada and japan the us
+wields its tariff baton against its traditional allies at the same time it is demanding that african countries
+such as rwanda and uganda remove import tariffs on second hand clothes from the us that view on the world is known as america
+first and it means that anyone seen as having moved americas cheese be it an ally or not is punished by contrast china
+sees its relations with the world as based on mutual respect fairness justice and win win cooperation and aims to safe
+guard world peace and promote common development it is willing to work with the rest of the world to make the international
+governance system fairer and more reasonable and build a newtype of international relations and acommunity with a shared
+future for mankind
